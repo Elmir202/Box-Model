@@ -1,0 +1,89 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    height: 100vh;
+}
+
+.container
+{
+    width: max-content;
+    margin: auto;
+}
+
+.container > h1
+{
+    
+    color: rgb(30, 30, 138);
+}
+
+.container > h1 > button
+{
+    width: 170px;
+    height: 45px;
+    border-radius: 10px;
+    border: solid 2px rgb(201, 198, 198);
+    margin-left: 69%;
+}
+
+.container > h1 > button > h5
+{
+    font-size: 13px;
+}
+
+.container > h1 > button > i
+{
+    margin-left: 15px;
+    color: orange;
+}
+
+
+.container > h1 > button:hover 
+{
+    border-color: orange;
+}
+
+.card
+{
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    width: 350px;
+    height: 480px;
+    margin: 18px;
+    border: 2px solid rgb(219, 214, 214);
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.card > span
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card > img
+{
+    display: block;
+    margin: 40px auto 40px auto;
+    height: 200px;
+    width: 200px;
+}
+
+.card > p
+{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 23px;
+    opacity: 0.7;
+}
+
+
+
+
